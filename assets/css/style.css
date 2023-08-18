@@ -1,0 +1,214 @@
+:root{
+    --gelb: #E7BC0E;
+    --hell-gruen: #6BC1A3;
+    --grau: #333333;
+    --hell-grau:#EFEFEF;
+    --rosa: #CB91B6;
+    --blau:#7EB8E1;
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: Mr Dafoe;
+    src: url("../fonts/MrDafoe-Regular.ttf");
+}
+@font-face {
+    font-family: sanito-Bold;
+    src: url("../fonts/Santio\ Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.nav img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px ;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:baseline
+}
+.nav a{
+    border-bottom: 1px solid var(--gelb) ;
+    color: gray;
+    margin: 15px 80px 10px 10px;
+}
+.Parallax{
+    background: url("../img/cleo-topper.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    font-family: sanito-Bold;
+}
+.first-section h2{
+    width: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+}
+
+.first-section p:nth-of-type(1){
+    font-family: Mr Dafoe;
+    font-size: 22px;
+    color: var(--gelb);
+    margin-top: 130px;
+}
+.first-section p:nth-of-type(2){
+    font-family: inter;
+    font-size: 20px;
+    color: var(--gelb);
+    margin-left: 193px;
+    margin-top: -12px;
+}
+.first-section{
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.second-section{
+    width: 439px;
+    margin-left: 376px;
+    margin-top: 260px;
+}
+.second-section p{
+    
+    color: var(--hell-gruen);
+    font-weight: 400;
+    line-height:1.5 ;
+    font-size: 32px;
+}
+
+.text-bg{
+    color: white;
+    background: var(--grau);
+}
+
+
+.third-section , .fourth-section , .fifth-section, .sixth-section{
+    width: 627px;
+    margin-left: 470px;
+    margin-top: 240px;
+}
+.third-section img , .fourth-section img , .fifth-section img{
+    width: 108px;
+}
+.third-section h2{
+    color: var(--gelb);
+    font-size: 139px;
+    text-transform: uppercase;
+}
+.third-section p{
+    color: var(--gelb);
+    font-size: 50px;
+}
+.third-section p span , .fourth-section p span , .fifth-section p span{
+    font-size: 42px;
+}
+
+.fourth-section p{
+    color: var(--rosa);
+    font-size: 52px;
+}
+
+.fourth-section h2{
+    color: var(--rosa);
+    font-size: 173px;
+}
+.fifth-section h2{
+    font-size: 110px;
+    color: var(--hell-gruen);
+
+}
+.fifth-section p{
+    font-size: 52px;
+    color: var(--hell-gruen);
+}
+
+.sixth-section{
+    width: 597px;
+    font-size: 35px;
+    color: var(--blau);
+    line-height: 1.5;
+    padding-bottom: 280px;
+}
+.bg-color{
+    background: var(--hell-grau);
+}
+.image{
+    width: 100vw;
+    background: url("../img/see.png")  no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.image img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.help{
+    background: black;
+    color: white;
+    margin-top: -6px;
+    height: 740px;
+    
+
+}
+.help p{
+    width: 361px;
+    font-family: inter;
+    font-size: 47px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.help a{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    transition: 0.2s;
+    
+}
+
+.help a:hover{
+    box-shadow: 8px 8px 2px 1px white;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+}
+footer p{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 15px;
+    letter-spacing: 0;
+}
+.roma{
+    color: var(--hell-gruen);
+}
+
+.roma:hover{
+    border-bottom: 1px solid var(--hell-gruen);
+}
